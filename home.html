@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            数据源1的链接:<input type="text" class="data-origin-One" name="" id=""
+                value="https://repo.oss.cipunited.com/debian/dists/bookworm/clean/main/binary-mips64r6el/Packages">
+        </div>
+        <div>
+            数据源2的链接:<input type="text" class="data-origin-Two" name="" id=""
+                value="https://repo.oss.cipunited.com/debian/dists/bookworm/clean/main/binary-mips64r6el/Packages">
+        </div>
+        <button class="export-file">导出</button>
+        <div>
+            需要搜索的包名:<input type="text" class="search-box" name="" id="">
+            <button class="search-btn">搜索</button>
+        </div>
+        <a id="dlink" style="display: none;"></a>
+        <table border cellspacing="0" cellpadding="10" 
+            style="margin-top: 20px;">
+            <tr>
+                <th>包名</th>
+                <th>数据源1</th>
+                <th>数据源2</th>
+                <th>对比结果</th>
+                <th>新版本号</th>
+            </tr>
+            <tbody class="display-area">
+
+            </tbody>
+        </table>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
