@@ -13,6 +13,6 @@
         "browserify": "17.0.0"
     },
     "scripts": {
-        "build": "browserify index.js > main.js"
+        "build": "browserify index.js -o main.js"
     }
 }
