@@ -1,0 +1,3 @@
+[submodule "node-deb-version-compare"]
+	path = node-deb-version-compare
+	url = https://github.com/sdumetz/node-deb-version-compare.git
